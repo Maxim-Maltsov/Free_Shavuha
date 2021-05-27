@@ -104,6 +104,10 @@ main {
     font-size: 2em;
 }
 
+.count {
+    margin-left: 0.5rem;
+}
+
 #block-customer {
     display: none;
 }

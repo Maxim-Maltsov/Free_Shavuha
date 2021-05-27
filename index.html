@@ -37,21 +37,21 @@
 
 				<div class="mb-3">
 					<label for="title">Заголовок (краткое описание задачи)</label>
-					<input type="text" class="form-control" id="title" name="title" required value="заголовок">
+					<input type="text" class="form-control" id="title" name="title" required value="Ваш заказ">
 				</div>
 				<div class="row">
 					<div class="col-md-4 mb-3">
 						<label for="firstName">Ваше имя</label>
-						<input type="text" class="form-control" id="firstName" name="firstName" required value="ваше имя">
+						<input type="text" class="form-control" id="firstName" name="firstName" required value="Ваше имя">
 					</div>
 					<div class="col-md-4 mb-3">
 						<label for="email">Email</label>
-						<input type="email" class="form-control" id="email" name="email" placeholder="you@mail.com" required
-									 value="email@email">
+						<input type="email" class="form-control" id="email" name="email" placeholder="Ваш адрес эл.почты" required
+									 value="">
 					</div>
 					<div class="col-md-4 mb-3">
 						<label for="phone">Номер телефона <span class="text-muted">(optional)</span></label>
-						<input type="text" class="form-control" id="phone" name="phone" value="911">
+						<input type="text" class="form-control" id="phone" name="phone" placeholder="Ваш номер телефона" value="">
 					</div>
 				</div>
 
@@ -60,7 +60,7 @@
 					<label for="description">Описание</label>
 					<textarea type="text" class="form-control" id="description" name="description"
 										placeholder="Поднобно опишите задачу" rows="4"
-										required>Lorem ipsum dolor sit amet, consectetur.</textarea>
+										required></textarea>
 				</div>
 
 				<div class="row">
@@ -89,8 +89,8 @@
 						<div class="mb-3">
 							<label for="deadline">Срок выполнения до:</label>
 
-							<input type="date" id="deadline" class="form-control" name="deadline" max="2020-12-31" required
-										 value="2020-01-01">
+							<input type="date" id="deadline" class="form-control" name="deadline" max="2050-12-31" required
+										 value="2021-01-01">
 						</div>
 						<button class="btn btn-primary btn-lg btn-block" type="submit">Отправить заявку</button>
 					</div>
@@ -153,8 +153,8 @@
 					<td>Lorem</td>
 					<td class="shawarma"></td>
 					<td>2020-02-14</td>
-				</tr>  --> 
-											
+				</tr> Динамически генерируем таблицу с помощью JS. Статическая вёрска тела таблицы заказов больше не нужна. -->
+			
 				</tbody>        
 			</table>
 		</div>
